@@ -1,7 +1,7 @@
 
 
 #利用面向对象的继承机制定义椭圆（ellipse），正方形（square），矩形（rectangle），圆形（Circle）等类
-#设计一个函数compute-area（shapes）;输入一个图形列表，输出这些图形的面积之和
+# 设计一个函数compute-area（shapes）;输入一个图形列表，输出这些图形的面积之和
 
 
 class Shape(object): 
