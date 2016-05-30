@@ -1,6 +1,7 @@
-import hw_a,hw_b;
-SELECT b.sn 
-FROM TABLE hw_b b
-RIGHT JOIN TABLE hw_a a
-ON a.Key=b.Key
-WHERE A.Key IS NULL;
+SELECT * 
+    FROM hw_b as b
+    WHERE b.sn not in
+        (SELECT sn
+             FROM hw_a);
+b.commit();
+
